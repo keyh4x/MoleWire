@@ -1,0 +1,8 @@
+#output
+*.exe
+MoleWire
+molewire
+molewire-*
+
+#transfers
+*.partial
