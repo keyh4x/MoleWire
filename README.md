@@ -2,7 +2,7 @@
 
 # MoleWire
 
-Meet our tiny mole. He speaks the **[MoleWire protocol](#the-molewire-protocol)** a language he dug himself and tunnels files straight from one person to another over Tor. Safely, and anonymously.
+Meet our tiny mole. He speaks the **[MoleWire protocol](docs/protocol.md)** a language he dug himself and tunnels files straight from one person to another over Tor. Safely, and anonymously.
 
 **How it works**
 
@@ -105,6 +105,8 @@ MoleWire speaks its own small binary protocol, built on six message types:
 | `Dirt` | delivers chunk N |
 | `Bury` | confirms the transfer is complete |
 | `Collapse` | refuses the request and returns a reason code |
+
+The six message layouts, how files are addressed by hash and how the request window works are in [docs/protocol.md](docs/protocol.md).
 
 ## License
 
