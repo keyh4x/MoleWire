@@ -43,6 +43,12 @@ go build .
 
 Builds for whatever machine it runs on. `MoleWire.exe` on Windows, `MoleWire` on Linux and macOS. One static binary, nothing to install alongside it.
 
+Or install it straight from the module path:
+
+```
+go install github.com/keyh4x/MoleWire@latest
+```
+
 **If Tor lives somewhere unusual**
 
 ```

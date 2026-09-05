@@ -1,8 +1,8 @@
 package transfer
 
 import (
-	"MoleWire/message"
-	"MoleWire/wire"
+	"github.com/keyh4x/MoleWire/message"
+	"github.com/keyh4x/MoleWire/wire"
 	"errors"
 	"fmt"
 	"io"

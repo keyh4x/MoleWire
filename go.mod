@@ -1,4 +1,4 @@
-module MoleWire
+module github.com/keyh4x/MoleWire
 
 go 1.25.0
 

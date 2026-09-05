@@ -9,8 +9,8 @@ import (
 	"path/filepath"
 	"strings"
 	"time"
-	"MoleWire/tor"
-	"MoleWire/transfer"
+	"github.com/keyh4x/MoleWire/tor"
+	"github.com/keyh4x/MoleWire/transfer"
 )
 
 
